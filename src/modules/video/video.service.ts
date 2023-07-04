@@ -4,7 +4,6 @@ import { join, extname } from 'path';
 import { promisify } from 'util';
 import * as ffmpeg from 'fluent-ffmpeg';
 import { Video } from './entities/video.entity';
-import { randomUUID } from 'crypto';
 
 const ffprobe = promisify(ffmpeg.ffprobe);
 
